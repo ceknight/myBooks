@@ -1,0 +1,25 @@
+{
+  "name": "mybooks",
+  "version": "1.0.0",
+  "description": "front end page for my  book store API",
+  "main": "scripts.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "bookstore",
+    "library",
+    "books"
+  ],
+  "author": "Chris Knight",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.49.9"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.0",
+    "@popperjs/core": "^2.11.4",
+    "autoprefixer": "^10.4.4",
+    "bootstrap": "^5.1.3"
+  }
+}
